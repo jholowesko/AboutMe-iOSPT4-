@@ -12,8 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Hi my name is John")
-        print("Make another change")
+        self.view.backgroundColor = .blue
     }
 
 
